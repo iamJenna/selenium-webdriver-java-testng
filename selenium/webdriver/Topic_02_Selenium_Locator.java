@@ -32,7 +32,7 @@ public class Topic_02_Selenium_Locator {
     @Test
     public void TC_01_ID(){
         //Tim element co id la first name
-        driver.findElement(By.id("First Name")).sendKeys("Paulle");
+        driver.findElement(By.id("FirstName")).sendKeys("Paulle");
     }
     @Test
     public void TC_02_Class(){
@@ -40,7 +40,7 @@ public class Topic_02_Selenium_Locator {
     }
     @Test
     public void TC_03_Name(){
-        driver.findElement(By.name("DateOfBirthday"));
+        driver.findElement(By.name("DateOfBirthDay"));
     }
     @Test
     public void TC_04_Tagname(){
@@ -94,8 +94,8 @@ public class Topic_02_Selenium_Locator {
         driver.findElement(By.xpath("//input"));
 
         //Xpath voi link
-        driver.findElement(By.xpath("//a[@href='/custom/address']"));
-        driver.findElement(By.xpath("//a[text()='Addresses']"));
+        driver.findElement(By.xpath("//a[@href='/customer/addresses']"));
+        //driver.findElement(By.xpath("//a[text()='Addresseses']"));
     }
 
     @AfterClass
