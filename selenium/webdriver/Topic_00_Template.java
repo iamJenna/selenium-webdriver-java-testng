@@ -43,5 +43,12 @@ public class Topic_00_Template {
     public void afterClass() {
         driver.quit();
     }
+    public void sleepInSeconds(long timeInSecond){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
 
