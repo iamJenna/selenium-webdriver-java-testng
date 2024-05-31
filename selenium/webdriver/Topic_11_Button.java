@@ -1,7 +1,6 @@
 package webdriver;
 
 
-//import graphql.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,11 +11,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.openqa.selenium.support.Color;
 
-import java.awt.*;
 import java.time.Duration;
-import java.util.Locale;
 
-public class Topic_11_Button_Radio_Checkbox {
+public class Topic_11_Button {
     WebDriver driver;
 
 
