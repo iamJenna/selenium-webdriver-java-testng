@@ -56,7 +56,7 @@ public class Topic_16_Shadow_DOM {
     public void TC_02_Shadow_DOM_Shopee() {
         driver.get("https://shopee.vn/");
 
-        WebElement shadowHostElement = driver.findElement(By.cssSelector(""))
+        //WebElement shadowHostElement = driver.findElement(By.cssSelector(""))
     }
 
 
