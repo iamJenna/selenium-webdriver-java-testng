@@ -8,9 +8,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
-public class Topic_00_Template {
+public class Topic_20_JavascriptExecutor {
     WebDriver driver;
 
     @BeforeClass
