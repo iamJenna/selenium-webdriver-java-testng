@@ -70,6 +70,7 @@ public class Topic_20_JavascriptExecutor {
         Assert.assertEquals(executeForBrowser("return document.domain;"),"facebook.com");
 
 
+
     }
 
     @Test
