@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="selenium-api-4.19.1-sources">
-    <CLASSES />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/testng-7.9.0.jar!/" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/libraries/selenium-api-4.19.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourceDocs/testng-7.9.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
